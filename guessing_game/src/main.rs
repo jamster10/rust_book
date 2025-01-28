@@ -15,6 +15,7 @@ fn main() {
         println!("secret num is {sec_num}");
         println!("You guessed {guess}");
         let spaces = "".len();
+        let a = if true { true } else { "six" };
 
         let guess: u32 = guess.trim().parse().expect("Yo give me a number");
 
